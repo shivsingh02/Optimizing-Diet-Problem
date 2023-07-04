@@ -1,0 +1,46 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: Dell
+ * Creation Date: 29-Mar-2023 at 7:43:35 PM
+ *********************************************/
+SheetConnection
+ projectdata("C:\\Users\\Dell\\Downloads\\DIET.xlsx");
+ N = 64;
+ Calories from
+ SheetRead(projectdata,"Calories");
+  Cholestrol from
+ SheetRead(projectdata,"Cholesterol");
+  Fat from
+ SheetRead(projectdata,"Total_Fat");
+   Sodium from
+ SheetRead(projectdata,"Sodium");
+   Carbohydrate from
+ SheetRead(projectdata,"Carbohydrates");
+   Dietary_Fiber from
+ SheetRead(projectdata,"Dietary_Fiber");
+   Protein from
+ SheetRead(projectdata,"Protein");
+   Vit_A from
+ SheetRead(projectdata,"Vit_A");
+   Vit_C from
+ SheetRead(projectdata,"Vit_C");
+   Calcium from
+ SheetRead(projectdata,"Calcium");
+   Iron from
+ SheetRead(projectdata,"Iron");
+  cost from
+ SheetRead(projectdata,"Price_Serving");
+   min_serve from
+ SheetRead(projectdata,"Min");
+   max_serve from
+ SheetRead(projectdata,"Max");
+    CheckBox from
+ SheetRead(projectdata,"CheckBox");
+ X = 11;
+  A from
+  SheetRead(projectdata,"Req_min");
+  B from
+  SheetRead(projectdata,"req_max");
+ Names from 
+ SheetRead(projectdata,"Names"); 
+  
